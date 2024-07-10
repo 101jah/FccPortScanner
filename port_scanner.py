@@ -26,7 +26,7 @@ def get_open_ports(target, port_range, verbose=False):
                 open_ports.append(port)
             sock.close()
         except socket.error:
-            passgit@github.com:101jah/FccPortScanner.gitgit@github.com:101jah/FccPortScanner.git
+            pass
 
     if verbose:
         verbose_output = f"Open ports for {target} ({ip_address})\n"
